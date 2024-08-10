@@ -11,8 +11,8 @@ A dockerised server for MainWP Dashboard, a selfhosted tool for managing WordPre
 ```cp .env.example .env
 git clone https://github.com/richarah/mainwp-container
 cd mainwp-container
-cp .env.example .env # substitute default vars for your own
-docker-compose up -d # start MainWP server
+cp .env.example .env
+docker-compose up -d
 ```
 
 Open `localhost:8000` in your browser to complete the setup. The dashboard will then be accessible under `localhost:8000/wp-admin`.

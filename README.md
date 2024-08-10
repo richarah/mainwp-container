@@ -15,7 +15,7 @@ cp .env.example .env
 docker-compose up -d
 ```
 
-Open `localhost:8000` in your browser to complete the setup. The dashboard will then be accessible under `localhost:8000/wp-admin`.
+Open `localhost:8000/wp-admin` in your browser to complete the setup and access the dashboard.
 
 #### A note on networking
 
